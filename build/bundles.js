@@ -1,15 +1,24 @@
-var pluginsBundle = [
+var bundle = [
   "[aurelia-kendoui-bridge]",
   "[aurelia-kendoui-bridge/**/*.js]",
   "aurelia-kendoui-bridge/**/*.html!text",
   "kendo-ui/js/*.js",
-  "jquery"
+  "jquery",
+  "aurelia-framework",
+  "aurelia-bootstrapper",
+  "aurelia-router",
+  "aurelia-templating-binding",
+  "aurelia-templating-resources",
+  "aurelia-templating-router",
+  "aurelia-loader-default",
+  "aurelia-history-browser",
+  "aurelia-logging-console"
 ];
 
 module.exports = {
   "bundles": {
     "bundles/bundle": {
-      "includes": pluginsBundle,
+      "includes": bundle,
       "excludes": [
         "[kendo-ui/js/angular.min.js]",
         "[kendo-ui/js/jquery.min.js]",
