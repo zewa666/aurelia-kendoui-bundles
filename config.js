@@ -185,6 +185,8 @@ System.config({
   },
   bundles: {
     "bundles/bundle.js": [
+      "github:systemjs/plugin-text@0.0.7.js",
+      "github:systemjs/plugin-text@0.0.7/text.js",
       "kendo-ui/js/jszip.min.js",
       "kendo-ui/js/pako_deflate.min.js",
       "kendo.autocomplete.min",
