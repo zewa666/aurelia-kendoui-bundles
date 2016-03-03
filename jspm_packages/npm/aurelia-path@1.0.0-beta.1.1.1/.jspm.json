@@ -1,0 +1,83 @@
+{
+  "name": "aurelia-path",
+  "version": "1.0.0-beta.1.1.1",
+  "description": "Utilities for path manipulation.",
+  "keywords": [
+    "aurelia",
+    "path"
+  ],
+  "homepage": "http://aurelia.io",
+  "bugs": {
+    "url": "https://github.com/aurelia/path/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Rob Eisenberg",
+    "email": "rob@bluespire.com",
+    "url": "http://robeisenberg.com/"
+  },
+  "main": "aurelia-path",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/aurelia/path"
+  },
+  "jspm": {
+    "registry": "npm",
+    "jspmPackage": true,
+    "main": "aurelia-path",
+    "format": "amd",
+    "directories": {
+      "dist": "dist/amd"
+    },
+    "devDependencies": {
+      "babel": "babel-core@^5.1.13",
+      "babel-runtime": "^5.1.13",
+      "core-js": "^2.0.3"
+    }
+  },
+  "devDependencies": {
+    "babel": "babel-core@^5.1.13",
+    "babel-runtime": "^5.1.13",
+    "core-js": "^2.0.3"
+  },
+  "aurelia": {
+    "documentation": {
+      "articles": []
+    }
+  },
+  "gitHead": "88dcaba11d18f87551801465c9cfa57a6de0202f",
+  "_id": "aurelia-path@1.0.0-beta.1.1.1",
+  "scripts": {},
+  "_shasum": "877ce89a174668ccd34f29c26942bfa9d9a2e0a1",
+  "_from": ".",
+  "_npmVersion": "3.3.12",
+  "_nodeVersion": "5.2.0",
+  "_npmUser": {
+    "name": "aureliaeffect",
+    "email": "info@durandal.io"
+  },
+  "dist": {
+    "shasum": "877ce89a174668ccd34f29c26942bfa9d9a2e0a1",
+    "tarball": "http://registry.npmjs.org/aurelia-path/-/aurelia-path-1.0.0-beta.1.1.1.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "aureliaeffect",
+      "email": "info@durandal.io"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-6-west.internal.npmjs.com",
+    "tmp": "tmp/aurelia-path-1.0.0-beta.1.1.1.tgz_1456810585862_0.964423434343189"
+  },
+  "directories": {
+    "dist": "dist/amd"
+  },
+  "registry": "npm",
+  "jspmPackage": true,
+  "format": "amd",
+  "ignore": [
+    "node_modules"
+  ],
+  "dependencies": {}
+}

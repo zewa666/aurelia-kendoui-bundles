@@ -1,0 +1,98 @@
+{
+  "name": "aurelia-task-queue",
+  "version": "1.0.0-beta.1.1.1",
+  "description": "A simple task queue for the browser that enables the queuing of both standard tasks and micro tasks.",
+  "keywords": [
+    "aurelia",
+    "queue",
+    "task",
+    "micro task"
+  ],
+  "homepage": "http://aurelia.io",
+  "bugs": {
+    "url": "https://github.com/aurelia/task-queue/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Rob Eisenberg",
+    "email": "rob@bluespire.com",
+    "url": "http://robeisenberg.com/"
+  },
+  "main": "aurelia-task-queue",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/aurelia/task-queue"
+  },
+  "jspm": {
+    "registry": "npm",
+    "jspmPackage": true,
+    "main": "aurelia-task-queue",
+    "format": "amd",
+    "directories": {
+      "dist": "dist/amd"
+    },
+    "peerDependencies": {
+      "aurelia-pal": "^1.0.0-beta.1.1.1"
+    },
+    "dependencies": {
+      "aurelia-pal": "^1.0.0-beta.1.1.1"
+    },
+    "devDependencies": {
+      "aurelia-pal-browser": "^1.0.0-beta.1.1.2",
+      "babel": "babel-core@^5.1.13",
+      "babel-runtime": "^5.1.13",
+      "core-js": "^2.0.3"
+    }
+  },
+  "devDependencies": {
+    "aurelia-pal-browser": "^1.0.0-beta.1.1.2",
+    "babel": "babel-core@^5.1.13",
+    "babel-runtime": "^5.1.13",
+    "core-js": "^2.0.3"
+  },
+  "aurelia": {
+    "documentation": {
+      "articles": []
+    }
+  },
+  "gitHead": "319d5f51d588782def3e8176bf3b75cacdb67c15",
+  "_id": "aurelia-task-queue@1.0.0-beta.1.1.1",
+  "scripts": {},
+  "_shasum": "0f5030bfe3fbefc84934694889d9b3d8d8115e75",
+  "_from": ".",
+  "_npmVersion": "3.3.12",
+  "_nodeVersion": "5.2.0",
+  "_npmUser": {
+    "name": "aureliaeffect",
+    "email": "info@durandal.io"
+  },
+  "dist": {
+    "shasum": "0f5030bfe3fbefc84934694889d9b3d8d8115e75",
+    "tarball": "http://registry.npmjs.org/aurelia-task-queue/-/aurelia-task-queue-1.0.0-beta.1.1.1.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "aureliaeffect",
+      "email": "info@durandal.io"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-6-west.internal.npmjs.com",
+    "tmp": "tmp/aurelia-task-queue-1.0.0-beta.1.1.1.tgz_1454959321870_0.7744264809880406"
+  },
+  "directories": {
+    "dist": "dist/amd"
+  },
+  "registry": "npm",
+  "jspmPackage": true,
+  "format": "amd",
+  "peerDependencies": {
+    "aurelia-pal": "^1.0.0-beta.1.1.1"
+  },
+  "ignore": [
+    "node_modules"
+  ],
+  "dependencies": {
+    "aurelia-pal": "aurelia-pal@^1.0.0-beta.1.1.1"
+  }
+}
