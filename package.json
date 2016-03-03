@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/aurelia-ui-toolkits/aurelia-kendoui-bundles#readme",
   "jspm": {
-    "directories": {},
     "dependencies": {
       "aurelia-bootstrapper": "npm:aurelia-bootstrapper@^1.0.0-beta.1.1.4",
       "aurelia-framework": "npm:aurelia-framework@^1.0.0-beta.1.1.4",
@@ -42,6 +41,7 @@
     "aurelia-bundler": "^0.3.2",
     "del": "^2.2.0",
     "gulp": "^3.9.1",
+    "jspm": "^0.16.15",
     "require-dir": "^0.3.0",
     "vinyl-paths": "^2.1.0"
   }
