@@ -29,15 +29,6 @@
   "github:jspm/nodelibs-fs@0.1.2": {},
   "github:systemjs/plugin-json@0.1.0": {},
   "github:systemjs/plugin-text@0.0.7": {},
-  "npm:aurelia-kendoui-bridge@0.4.2": {
-    "aurelia-binding": "npm:aurelia-binding@^1.0.0-beta.1.2.1",
-    "aurelia-dependency-injection": "npm:aurelia-dependency-injection@^1.0.0-beta.1.1.4",
-    "aurelia-logging": "npm:aurelia-logging@^1.0.0-beta.1.1.2",
-    "aurelia-metadata": "npm:aurelia-metadata@^1.0.0-beta.1.1.5",
-    "aurelia-task-queue": "npm:aurelia-task-queue@^1.0.0-beta.1.1.1",
-    "aurelia-templating": "npm:aurelia-templating@^1.0.0-beta.1.1.2",
-    "jquery": "github:components/jquery@2.1.4"
-  },
   "npm:babel-core@5.8.38": {},
   "npm:babel-runtime@5.8.38": {
     "process": "github:jspm/nodelibs-process@^0.1.0"
@@ -163,5 +154,14 @@
     "aurelia-route-recognizer": "npm:aurelia-route-recognizer@^1.0.0-beta.1.1.0"
   },
   "npm:jquery@2.1.4": {},
-  "kendo:bower-kendo-ui@2016.1.322": {}
+  "kendo:bower-kendo-ui@2016.1.322": {},
+  "npm:aurelia-kendoui-bridge@0.7.0": {
+    "aurelia-binding": "npm:aurelia-binding@^1.0.0-beta.1.3.0",
+    "aurelia-dependency-injection": "npm:aurelia-dependency-injection@^1.0.0-beta.1.2.0",
+    "aurelia-logging": "npm:aurelia-logging@^1.0.0-beta.1.2.0",
+    "aurelia-metadata": "npm:aurelia-metadata@^1.0.0-beta.1.2.0",
+    "aurelia-task-queue": "npm:aurelia-task-queue@^1.0.0-beta.1.2.0",
+    "aurelia-templating": "npm:aurelia-templating@^1.0.0-beta.1.2.0",
+    "jquery": "github:components/jquery@2.1.4"
+  }
 }
