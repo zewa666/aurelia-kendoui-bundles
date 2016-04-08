@@ -8,20 +8,34 @@ System.config({
     ]
   },
   paths: {
-    "github:*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.2/jspm_packages/github/*",
-    "npm:*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.2/jspm_packages/npm/*",
-    "kendo.*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.2/jspm_packages/kendo/bower-kendo-ui@2016.1.322/js/kendo.*.js",
-    "kendo:*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.2/jspm_packages/kendo/*",
-    "bundles/bundle.js": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.2/bundles/bundle.js"
+    "github:*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.3/jspm_packages/github/*",
+    "npm:*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.3/jspm_packages/npm/*",
+    "kendo.*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.3/jspm_packages/kendo/bower-kendo-ui@2016.1.322/js/kendo.*.js",
+    "kendo:*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.3/jspm_packages/kendo/*",
+    "bundles/bundle.js": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.3/bundles/bundle.js"
   },
   map: {
+    "aurelia-animator-css": "npm:aurelia-animator-css@1.0.0-beta.1.2.0",
+    "aurelia-binding": "npm:aurelia-binding@1.0.0-beta.1.3.1",
     "aurelia-bootstrapper": "npm:aurelia-bootstrapper@1.0.0-beta.1.2.0",
+    "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.0.0-beta.1.2.0",
+    "aurelia-event-aggregator": "npm:aurelia-event-aggregator@1.0.0-beta.1.2.0",
+    "aurelia-fetch-client": "npm:aurelia-fetch-client@1.0.0-beta.1.2.1",
     "aurelia-framework": "npm:aurelia-framework@1.0.0-beta.1.2.1",
+    "aurelia-history": "npm:aurelia-history@1.0.0-beta.1.2.0",
     "aurelia-history-browser": "npm:aurelia-history-browser@1.0.0-beta.1.2.0",
+    "aurelia-http-client": "npm:aurelia-http-client@1.0.0-beta.1.2.0",
     "aurelia-kendoui-bridge": "npm:aurelia-kendoui-bridge@0.7.0",
+    "aurelia-loader": "npm:aurelia-loader@1.0.0-beta.1.2.0",
     "aurelia-loader-default": "npm:aurelia-loader-default@1.0.0-beta.1.2.0",
+    "aurelia-logging": "npm:aurelia-logging@1.0.0-beta.1.2.0",
     "aurelia-logging-console": "npm:aurelia-logging-console@1.0.0-beta.1.2.0",
+    "aurelia-metadata": "npm:aurelia-metadata@1.0.0-beta.1.2.0",
+    "aurelia-path": "npm:aurelia-path@1.0.0-beta.1.2.1",
+    "aurelia-route-recognizer": "npm:aurelia-route-recognizer@1.0.0-beta.1.2.0",
     "aurelia-router": "npm:aurelia-router@1.0.0-beta.1.2.0",
+    "aurelia-task-queue": "npm:aurelia-task-queue@1.0.0-beta.1.2.0",
+    "aurelia-templating": "npm:aurelia-templating@1.0.0-beta.1.2.1",
     "aurelia-templating-binding": "npm:aurelia-templating-binding@1.0.0-beta.1.2.1",
     "aurelia-templating-resources": "npm:aurelia-templating-resources@1.0.0-beta.1.2.1",
     "aurelia-templating-router": "npm:aurelia-templating-router@1.0.0-beta.1.2.0",
@@ -42,6 +56,11 @@ System.config({
     },
     "npm:assert@1.3.0": {
       "util": "npm:util@0.10.3"
+    },
+    "npm:aurelia-animator-css@1.0.0-beta.1.2.0": {
+      "aurelia-metadata": "npm:aurelia-metadata@1.0.0-beta.1.2.0",
+      "aurelia-pal": "npm:aurelia-pal@1.0.0-beta.1.2.0",
+      "aurelia-templating": "npm:aurelia-templating@1.0.0-beta.1.2.1"
     },
     "npm:aurelia-binding@1.0.0-beta.1.3.1": {
       "aurelia-metadata": "npm:aurelia-metadata@1.0.0-beta.1.2.0",
@@ -86,6 +105,10 @@ System.config({
     "npm:aurelia-history-browser@1.0.0-beta.1.2.0": {
       "aurelia-history": "npm:aurelia-history@1.0.0-beta.1.2.0",
       "aurelia-pal": "npm:aurelia-pal@1.0.0-beta.1.2.0"
+    },
+    "npm:aurelia-http-client@1.0.0-beta.1.2.0": {
+      "aurelia-pal": "npm:aurelia-pal@1.0.0-beta.1.2.0",
+      "aurelia-path": "npm:aurelia-path@1.0.0-beta.1.2.1"
     },
     "npm:aurelia-kendoui-bridge@0.7.0": {
       "aurelia-binding": "npm:aurelia-binding@1.0.0-beta.1.3.1",
@@ -305,6 +328,8 @@ System.config({
       "kendo.window.min",
       "kendo:bower-kendo-ui@2016.1.322/js/jszip.min.js",
       "kendo:bower-kendo-ui@2016.1.322/js/pako_deflate.min.js",
+      "npm:aurelia-animator-css@1.0.0-beta.1.2.0.js",
+      "npm:aurelia-animator-css@1.0.0-beta.1.2.0/aurelia-animator-css.js",
       "npm:aurelia-binding@1.0.0-beta.1.3.1.js",
       "npm:aurelia-binding@1.0.0-beta.1.3.1/aurelia-binding.js",
       "npm:aurelia-bootstrapper@1.0.0-beta.1.2.0.js",
@@ -313,12 +338,16 @@ System.config({
       "npm:aurelia-dependency-injection@1.0.0-beta.1.2.0/aurelia-dependency-injection.js",
       "npm:aurelia-event-aggregator@1.0.0-beta.1.2.0.js",
       "npm:aurelia-event-aggregator@1.0.0-beta.1.2.0/aurelia-event-aggregator.js",
+      "npm:aurelia-fetch-client@1.0.0-beta.1.2.1.js",
+      "npm:aurelia-fetch-client@1.0.0-beta.1.2.1/aurelia-fetch-client.js",
       "npm:aurelia-framework@1.0.0-beta.1.2.1.js",
       "npm:aurelia-framework@1.0.0-beta.1.2.1/aurelia-framework.js",
       "npm:aurelia-history-browser@1.0.0-beta.1.2.0.js",
       "npm:aurelia-history-browser@1.0.0-beta.1.2.0/aurelia-history-browser.js",
       "npm:aurelia-history@1.0.0-beta.1.2.0.js",
       "npm:aurelia-history@1.0.0-beta.1.2.0/aurelia-history.js",
+      "npm:aurelia-http-client@1.0.0-beta.1.2.0.js",
+      "npm:aurelia-http-client@1.0.0-beta.1.2.0/aurelia-http-client.js",
       "npm:aurelia-kendoui-bridge@0.7.0.js",
       "npm:aurelia-kendoui-bridge@0.7.0/autocomplete/autocomplete.html!github:systemjs/plugin-text@0.0.7.js",
       "npm:aurelia-kendoui-bridge@0.7.0/autocomplete/autocomplete.js",
