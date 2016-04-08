@@ -29,6 +29,7 @@
       "aurelia-templating-resources": "npm:aurelia-templating-resources@^1.0.0-beta.1.1.2",
       "aurelia-templating-router": "npm:aurelia-templating-router@^1.0.0-beta.1.1.2",
       "jquery": "npm:jquery@2.1.4",
+      "kendo-ui": "kendo:bower-kendo-ui@^2016.1.322",
       "text": "github:systemjs/plugin-text@^0.0.7"
     },
     "devDependencies": {
@@ -42,6 +43,7 @@
     "del": "^2.2.0",
     "gulp": "^3.9.1",
     "jspm": "^0.16.15",
+    "jspm-git": "^0.4.4",
     "require-dir": "^0.3.0",
     "vinyl-paths": "^2.1.0"
   }
