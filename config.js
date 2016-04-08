@@ -1,11 +1,10 @@
 System.config({
-  baseURL: "/",
   defaultJSExtensions: true,
   transpiler: "babel",
   babelOptions: {
-    "optional": [
-      "runtime"
-    ]
+    "ignore": ["github:*", "npm:*"],
+    "stage": 0,
+    "optional": []
   },
   paths: {
     "github:*": "jspm_packages/github/*",
