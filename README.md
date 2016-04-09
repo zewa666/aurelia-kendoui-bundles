@@ -12,3 +12,6 @@
 8. update the gist's index.html to reflect the new version: 
 
 ![img](http://i.imgur.com/Yc5FyRH.png)
+
+
+![Imgur](http://i.imgur.com/33U3EiG.png)
