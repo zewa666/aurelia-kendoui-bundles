@@ -2,16 +2,19 @@ System.config({
   defaultJSExtensions: true,
   transpiler: "babel",
   babelOptions: {
-    "ignore": ["github:*", "npm:*"],
+    "ignore": [
+      "github:*",
+      "npm:*"
+    ],
     "stage": 0,
     "optional": []
   },
   paths: {
-    "github:*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.4/jspm_packages/github/*",
-    "npm:*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.4/jspm_packages/npm/*",
-    "kendo.*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.4/jspm_packages/kendo/bower-kendo-ui@2016.1.322/js/kendo.*.js",
-    "kendo:*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.4/jspm_packages/kendo/*",
-    "bundles/bundle.js": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.4/bundles/bundle.js"
+    "github:*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.5/jspm_packages/github/*",
+    "npm:*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.5/jspm_packages/npm/*",
+    "kendo.*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.5/jspm_packages/kendo/bower-kendo-ui@2016.1.322/js/kendo.*.js",
+    "kendo:*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.5/jspm_packages/kendo/*",
+    "bundles/bundle.js": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.5/bundles/bundle.js"
   },
   map: {
     "aurelia-animator-css": "npm:aurelia-animator-css@1.0.0-beta.1.2.0",
@@ -42,6 +45,7 @@ System.config({
     "babel-runtime": "npm:babel-runtime@5.8.38",
     "core-js": "npm:core-js@0.9.18",
     "jquery": "npm:jquery@2.1.4",
+    "json": "github:systemjs/plugin-json@0.1.0",
     "kendo-ui": "kendo:bower-kendo-ui@2016.1.322",
     "text": "github:systemjs/plugin-text@0.0.7",
     "github:jspm/nodelibs-assert@0.1.0": {
@@ -210,6 +214,8 @@ System.config({
   },
   bundles: {
     "bundles/bundle.js": [
+      "github:systemjs/plugin-json@0.1.0.js",
+      "github:systemjs/plugin-json@0.1.0/json.js",
       "github:systemjs/plugin-text@0.0.7.js",
       "github:systemjs/plugin-text@0.0.7/text.js",
       "kendo.aspnetmvc.min",

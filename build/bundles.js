@@ -5,6 +5,7 @@ var bundle = [
   "kendo-ui/js/*.js",
   "jquery",
   "text",
+  "json",
   "aurelia-framework",
   "aurelia-bootstrapper",
   "aurelia-router",
