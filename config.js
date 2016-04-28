@@ -10,11 +10,10 @@ System.config({
     "optional": []
   },
   paths: {
-    "github:*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.8/jspm_packages/github/*",
-    "npm:*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.8/jspm_packages/npm/*",
-    "kendo.*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.8/jspm_packages/kendo/bower-kendo-ui@2016.1.420/js/kendo.*.js",
-    "kendo:*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.8/jspm_packages/kendo/*",
-    "bundles/bundle.js": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.8/bundles/bundle.js"
+    "github:*": "jspm_packages/github/*",
+    "npm:*": "jspm_packages/npm/*",
+    "kendo.*": "jspm_packages/kendo/bower-kendo-ui@2016.1.420/js/kendo.*.js",
+    "kendo:*": "jspm_packages/kendo/*"
   },
   map: {
     "aurelia-animator-css": "npm:aurelia-animator-css@1.0.0-beta.1.2.0",
