@@ -43,7 +43,7 @@ System.config({
     "babel": "npm:babel-core@5.8.38",
     "babel-runtime": "npm:babel-runtime@5.8.38",
     "core-js": "npm:core-js@0.9.18",
-    "jquery": "npm:jquery@2.2.1",
+    "jquery": "npm:jquery@2.2.3",
     "json": "github:systemjs/plugin-json@0.1.2",
     "kendo-ui": "kendo:bower-kendo-ui@2016.1.420",
     "text": "github:systemjs/plugin-text@0.0.7",
@@ -531,8 +531,8 @@ System.config({
       "npm:aurelia-templating-router@1.0.0-beta.1.2.0/router-view.js",
       "npm:aurelia-templating@1.0.0-beta.1.2.2.js",
       "npm:aurelia-templating@1.0.0-beta.1.2.2/aurelia-templating.js",
-      "npm:jquery@2.2.1.js",
-      "npm:jquery@2.2.1/dist/jquery.js"
+      "npm:jquery@2.2.3.js",
+      "npm:jquery@2.2.3/dist/jquery.js"
     ]
   }
 });
