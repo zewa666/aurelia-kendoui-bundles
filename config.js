@@ -120,7 +120,7 @@ System.config({
       "aurelia-task-queue": "npm:aurelia-task-queue@1.0.0-beta.1.2.0",
       "aurelia-templating": "npm:aurelia-templating@1.0.0-beta.1.2.2",
       "aurelia-templating-resources": "npm:aurelia-templating-resources@1.0.0-beta.1.2.2",
-      "jquery": "github:components/jquery@2.2.1"
+      "jquery": "github:components/jquery@2.2.3"
     },
     "npm:aurelia-loader-default@1.0.0-beta.1.2.1": {
       "aurelia-loader": "npm:aurelia-loader@1.0.0-beta.1.2.0",

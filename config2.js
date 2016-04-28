@@ -10,11 +10,11 @@ System.config({
     "optional": []
   },
   paths: {
-    "github:*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.10/jspm_packages/github/*",
-    "npm:*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.10/jspm_packages/npm/*",
-    "kendo.*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.10/jspm_packages/kendo/bower-kendo-ui@2016.1.420/js/kendo.*.js",
-    "kendo:*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.10/jspm_packages/kendo/*",
-    "bundles/bundle.js": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.10/bundles/bundle.js"
+    "github:*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.11/jspm_packages/github/*",
+    "npm:*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.11/jspm_packages/npm/*",
+    "kendo.*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.11/jspm_packages/kendo/bower-kendo-ui@2016.1.420/js/kendo.*.js",
+    "kendo:*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.11/jspm_packages/kendo/*",
+    "bundles/bundle.js": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.11/bundles/bundle.js"
   },
   map: {
     "aurelia-animator-css": "npm:aurelia-animator-css@1.0.0-beta.1.2.0",
@@ -121,7 +121,7 @@ System.config({
       "aurelia-task-queue": "npm:aurelia-task-queue@1.0.0-beta.1.2.0",
       "aurelia-templating": "npm:aurelia-templating@1.0.0-beta.1.2.2",
       "aurelia-templating-resources": "npm:aurelia-templating-resources@1.0.0-beta.1.2.2",
-      "jquery": "github:components/jquery@2.2.1"
+      "jquery": "github:components/jquery@2.2.3"
     },
     "npm:aurelia-loader-default@1.0.0-beta.1.2.1": {
       "aurelia-loader": "npm:aurelia-loader@1.0.0-beta.1.2.0",
