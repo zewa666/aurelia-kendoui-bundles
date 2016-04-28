@@ -10,11 +10,11 @@ System.config({
     "optional": []
   },
   paths: {
-    "github:*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.12/jspm_packages/github/*",
-    "npm:*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.12/jspm_packages/npm/*",
-    "kendo.*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.12/jspm_packages/kendo/bower-kendo-ui@2016.1.420/js/kendo.*.js",
-    "kendo:*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.12/jspm_packages/kendo/*",
-    "bundles/bundle.js": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.12/bundles/bundle.js"
+    "github:*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.13/jspm_packages/github/*",
+    "npm:*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.13/jspm_packages/npm/*",
+    "kendo.*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.13/jspm_packages/kendo/bower-kendo-ui@2016.1.420/js/kendo.*.js",
+    "kendo:*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.13/jspm_packages/kendo/*",
+    "bundles/bundle.js": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.13/bundles/bundle.js"
   },
   map: {
     "aurelia-animator-css": "npm:aurelia-animator-css@1.0.0-beta.1.2.0",
@@ -45,6 +45,7 @@ System.config({
     "babel-runtime": "npm:babel-runtime@5.8.38",
     "core-js": "npm:core-js@0.9.18",
     "jquery": "npm:jquery@2.2.3",
+    "jquery.min": "npm:jquery@2.2.3",
     "json": "github:systemjs/plugin-json@0.1.2",
     "kendo-ui": "kendo:bower-kendo-ui@2016.1.420",
     "text": "github:systemjs/plugin-text@0.0.7",
@@ -120,8 +121,7 @@ System.config({
       "aurelia-metadata": "npm:aurelia-metadata@1.0.0-beta.1.2.0",
       "aurelia-task-queue": "npm:aurelia-task-queue@1.0.0-beta.1.2.0",
       "aurelia-templating": "npm:aurelia-templating@1.0.0-beta.1.2.2",
-      "aurelia-templating-resources": "npm:aurelia-templating-resources@1.0.0-beta.1.2.2",
-      "jquery": "github:components/jquery@2.2.3"
+      "aurelia-templating-resources": "npm:aurelia-templating-resources@1.0.0-beta.1.2.2"
     },
     "npm:aurelia-loader-default@1.0.0-beta.1.2.1": {
       "aurelia-loader": "npm:aurelia-loader@1.0.0-beta.1.2.0",
