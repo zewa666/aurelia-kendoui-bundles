@@ -1,5 +1,5 @@
 /* */ 
-define(["exports","./config-builder","aurelia-templating-resources","npm:jquery@^2.2.3","kendo.data.min"], function (exports, _configBuilder, _aureliaTemplatingResources, _jquery, _kendoDataMin) {
+define(["exports","./config-builder","aurelia-templating-resources","jquery","kendo.data.min"], function (exports, _configBuilder, _aureliaTemplatingResources, _jquery, _kendoDataMin) {
   'use strict';
 
   exports.__esModule = true;

@@ -55,7 +55,7 @@
     "overrides": {
       "npm:aurelia-kendoui-bridge@0.8.1": {
         "map": {
-          "jquery": "npm:jquery@^2.2.3"
+          "jquery": "jquery"
         }
       }
     }
