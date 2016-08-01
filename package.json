@@ -28,7 +28,7 @@
       "aurelia-history": "npm:aurelia-history@^1.0.0-beta.1.2.0",
       "aurelia-history-browser": "npm:aurelia-history-browser@^1.0.0-beta.1.2.0",
       "aurelia-http-client": "npm:aurelia-http-client@^1.0.0-beta.1.2.0",
-      "aurelia-kendoui-bridge": "npm:aurelia-kendoui-bridge@^0.11.8",
+      "aurelia-kendoui-bridge": "github:aurelia-ui-toolkits/aurelia-kendoui-bridge@beta",
       "aurelia-loader": "npm:aurelia-loader@^1.0.0-beta.1.2.0",
       "aurelia-loader-default": "npm:aurelia-loader-default@^1.0.0-beta.1.2.0",
       "aurelia-logging": "npm:aurelia-logging@^1.0.0-beta.1.2.0",
@@ -42,9 +42,7 @@
       "aurelia-templating-binding": "npm:aurelia-templating-binding@^1.0.0-beta.1.2.1",
       "aurelia-templating-resources": "npm:aurelia-templating-resources@^1.0.0-beta.1.2.1",
       "aurelia-templating-router": "npm:aurelia-templating-router@^1.0.0-beta.1.2.0",
-      "jquery": "npm:jquery@^2.2.3",
       "json": "github:systemjs/plugin-json@^0.1.0",
-      "kendo-ui": "kendo:bower-kendo-ui@^2016.1.322",
       "text": "github:systemjs/plugin-text@^0.0.7"
     },
     "devDependencies": {
@@ -54,11 +52,10 @@
     }
   },
   "devDependencies": {
-    "aurelia-bundler": "^0.3.2",
+    "aurelia-bundler": "0.4.0",
     "del": "^2.2.0",
     "gulp": "^3.9.1",
     "jspm": "^0.16.15",
-    "jspm-git": "^0.4.4",
     "require-dir": "^0.3.0",
     "vinyl-paths": "^2.1.0"
   }

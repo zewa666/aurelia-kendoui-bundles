@@ -4,6 +4,8 @@ var bundles = require('../bundles.js');
 
 var config = {
   force: true,
+  configPath: "config.js",
+  injectionConfigPath: "config.js",
   packagePath: '.',
   bundles: bundles.bundles
 };
