@@ -10,9 +10,9 @@ System.config({
     "optional": []
   },
   paths: {
-    "github:*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.20/jspm_packages/github/*",
-    "npm:*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.20/jspm_packages/npm/*",
-    "bundles/bundle.js": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.20/bundles/bundle.js"
+    "github:*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.22/jspm_packages/github/*",
+    "npm:*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.22/jspm_packages/npm/*",
+    "bundles/bundle.js": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.22/bundles/bundle.js"
   },
   map: {
     "aurelia-animator-css": "npm:aurelia-animator-css@1.0.0",
