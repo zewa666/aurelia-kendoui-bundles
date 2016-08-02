@@ -41,6 +41,7 @@ System.config({
     "babel": "npm:babel-core@5.8.38",
     "babel-runtime": "npm:babel-runtime@5.8.38",
     "core-js": "npm:core-js@0.9.18",
+    "css": "github:systemjs/plugin-css@0.1.26",
     "json": "github:systemjs/plugin-json@0.1.2",
     "text": "github:systemjs/plugin-text@0.0.7",
     "github:aurelia-ui-toolkits/aurelia-kendoui-bridge@beta": {
@@ -348,6 +349,8 @@ System.config({
       "github:aurelia-ui-toolkits/aurelia-kendoui-bridge@beta/valueconverters/valueconverters.js",
       "github:aurelia-ui-toolkits/aurelia-kendoui-bridge@beta/version.js",
       "github:aurelia-ui-toolkits/aurelia-kendoui-bridge@beta/window/window.js",
+      "github:systemjs/plugin-css@0.1.26.js",
+      "github:systemjs/plugin-css@0.1.26/css.js",
       "github:systemjs/plugin-json@0.1.2.js",
       "github:systemjs/plugin-json@0.1.2/json.js",
       "github:systemjs/plugin-text@0.0.7.js",

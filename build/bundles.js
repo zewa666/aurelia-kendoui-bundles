@@ -4,6 +4,7 @@ var bundle = [
   "aurelia-kendoui-bridge/**/*.html!text",
   "text",
   "json",
+  "css",
   "aurelia-framework",
   "aurelia-bootstrapper",
   "aurelia-router",
