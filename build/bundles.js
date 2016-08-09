@@ -2,6 +2,8 @@ var bundle = [
   "[aurelia-kendoui-bridge]",
   "[aurelia-kendoui-bridge/**/*.js]",
   "aurelia-kendoui-bridge/**/*.html!text",
+  "aurelia-after-attached-plugin",
+  "aurelia-after-attached-plugin/**/*",
   "text",
   "json",
   "css",

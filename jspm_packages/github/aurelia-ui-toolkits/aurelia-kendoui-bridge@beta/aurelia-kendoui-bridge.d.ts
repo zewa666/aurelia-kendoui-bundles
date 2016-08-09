@@ -46,6 +46,7 @@ declare module 'aurelia-kendoui-bridge' {
     resources: string[];
     debugMode: any;
     registerRepeatStrategy: any;
+    constructor();
     
     /**
       * Automatically detect which Kendo controls are loaded, and load matching wrappers
@@ -146,11 +147,15 @@ declare module 'aurelia-kendoui-bridge' {
     kendoUpload(): KendoConfigBuilder;
     kendoValidator(): KendoConfigBuilder;
     kendoWindow(): KendoConfigBuilder;
+    
+    // deprecated
+    kendoButtonGroup(): KendoConfigBuilder;
+    kendoCombobox(): KendoConfigBuilder;
+    kendoScrollView(): KendoConfigBuilder;
+    kendoSwitch(): KendoConfigBuilder;
+    kendoToolbar(): KendoConfigBuilder;
   }
   export function configure(aurelia?: any, configCallback?: any): any;
-  export {
-    version
-  } from 'aurelia-kendoui-bridge/version';
   export let version: any;
   export class AutoComplete {
     constructor(element?: any, widgetBase?: any, viewResources?: any);
@@ -606,7 +611,7 @@ declare module 'aurelia-kendoui-bridge' {
     recreate(): any;
     detached(): any;
   }
-  export class Draggabke {
+  export class Draggable {
     constructor(element?: any, widgetBase?: any);
     bind(ctx?: any): any;
     attached(): any;
@@ -968,6 +973,13 @@ declare module 'aurelia-kendoui-bridge' {
     recreate(): any;
     detached(): any;
   }
+  export class Validator {
+    constructor(element?: any, widgetBase?: any);
+    bind(ctx?: any): any;
+    attached(): any;
+    recreate(): any;
+    detached(): any;
+  }
   export class kendoToStringValueConverter {
     toView(value?: any, format?: any, language?: any): any;
   }
@@ -988,13 +1000,6 @@ declare module 'aurelia-kendoui-bridge' {
   }
   export class kendoFormatValueConverter {
     toView(value?: any, ...params: any[]): any;
-  }
-  export class Validator {
-    constructor(element?: any, widgetBase?: any);
-    bind(ctx?: any): any;
-    attached(): any;
-    recreate(): any;
-    detached(): any;
   }
   export class Window {
     constructor(element?: any, widgetBase?: any);

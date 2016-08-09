@@ -14,6 +14,7 @@ System.config({
     "npm:*": "jspm_packages/npm/*"
   },
   map: {
+    "aurelia-after-attached-plugin": "github:aurelia-ui-toolkits/aurelia-after-attached-plugin@0.1.0",
     "aurelia-animator-css": "npm:aurelia-animator-css@1.0.0",
     "aurelia-binding": "npm:aurelia-binding@1.0.1",
     "aurelia-bootstrapper": "npm:aurelia-bootstrapper@1.0.0",
@@ -44,6 +45,10 @@ System.config({
     "css": "github:systemjs/plugin-css@0.1.26",
     "json": "github:systemjs/plugin-json@0.1.2",
     "text": "github:systemjs/plugin-text@0.0.7",
+    "github:aurelia-ui-toolkits/aurelia-after-attached-plugin@0.1.0": {
+      "aurelia-task-queue": "npm:aurelia-task-queue@1.0.0",
+      "aurelia-templating": "npm:aurelia-templating@1.0.0"
+    },
     "github:aurelia-ui-toolkits/aurelia-kendoui-bridge@beta": {
       "aurelia-binding": "npm:aurelia-binding@1.0.1",
       "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.0.0",
@@ -60,7 +65,7 @@ System.config({
       "buffer": "npm:buffer@3.6.0"
     },
     "github:jspm/nodelibs-process@0.1.2": {
-      "process": "npm:process@0.11.6"
+      "process": "npm:process@0.11.8"
     },
     "github:jspm/nodelibs-util@0.1.0": {
       "util": "npm:util@0.10.3"
@@ -216,7 +221,7 @@ System.config({
     "npm:inherits@2.0.1": {
       "util": "github:jspm/nodelibs-util@0.1.0"
     },
-    "npm:process@0.11.6": {
+    "npm:process@0.11.8": {
       "assert": "github:jspm/nodelibs-assert@0.1.0",
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "vm": "github:jspm/nodelibs-vm@0.1.0"
@@ -231,6 +236,9 @@ System.config({
   },
   bundles: {
     "bundles/bundle.js": [
+      "github:aurelia-ui-toolkits/aurelia-after-attached-plugin@0.1.0.js",
+      "github:aurelia-ui-toolkits/aurelia-after-attached-plugin@0.1.0/aurelia-after-attached-plugin.js",
+      "github:aurelia-ui-toolkits/aurelia-after-attached-plugin@0.1.0/index.js",
       "github:aurelia-ui-toolkits/aurelia-kendoui-bridge@beta.js",
       "github:aurelia-ui-toolkits/aurelia-kendoui-bridge@beta/autocomplete/autocomplete.html!github:systemjs/plugin-text@0.0.7.js",
       "github:aurelia-ui-toolkits/aurelia-kendoui-bridge@beta/autocomplete/autocomplete.js",
