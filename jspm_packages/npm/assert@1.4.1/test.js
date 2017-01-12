@@ -1,7 +1,7 @@
 /* */ 
 (function(Buffer, process) {
   var nodeAssert = require('assert');
-  var ourAssert = require('../assert@1.4.1');
+  var ourAssert = require('./assert');
   var keys = Object.keys;
   if (process.env.TEST_NATIVE === true) {
     tests(nodeAssert, 'node assert');

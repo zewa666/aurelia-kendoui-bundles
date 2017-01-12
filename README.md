@@ -13,5 +13,3 @@
 
 ![img](http://i.imgur.com/Yc5FyRH.png)
 
-
-![Imgur](http://i.imgur.com/33U3EiG.png)
