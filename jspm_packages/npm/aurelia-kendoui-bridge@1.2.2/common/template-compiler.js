@@ -58,10 +58,11 @@ define(['exports', 'aurelia-dependency-injection', 'aurelia-templating', 'aureli
       var args = _args();
       var elements = args.elements;
       var data = args.data;
+      var scopeFrom = args.scopeFrom;
 
       switch (_event) {
         case 'compile':
-          this.compile($parent, elements, data, container);
+          this.compile($parent, elements, data, scopeFrom, container);
           break;
 
         case 'cleanup':
@@ -73,7 +74,7 @@ define(['exports', 'aurelia-dependency-injection', 'aurelia-templating', 'aureli
       }
     };
 
-    TemplateCompiler.prototype.compile = function compile($parent, elements, data, container) {
+    TemplateCompiler.prototype.compile = function compile($parent, elements, data, scopeFrom, container) {
       var _this2 = this;
 
       var _loop = function _loop(i) {
@@ -91,6 +92,8 @@ define(['exports', 'aurelia-dependency-injection', 'aurelia-templating', 'aureli
           } else {
             ctx = dataItem;
           }
+        } else if (scopeFrom) {
+          ctx = scopeFrom;
         }
 
         if (element instanceof kendo.jQuery) {
@@ -109,6 +112,8 @@ define(['exports', 'aurelia-dependency-injection', 'aurelia-templating', 'aureli
 
     TemplateCompiler.prototype.enhanceView = function enhanceView($parent, element, ctx, container) {
       var view = kendo.jQuery(element).data('viewInstance');
+
+      $(element).data('$$kendoScope', ctx);
 
       if (element.querySelectorAll('.au-target').length === 0) {
         if (container) {

@@ -194,7 +194,7 @@
     "aurelia-pal": "npm:aurelia-pal@^1.0.0",
     "aurelia-task-queue": "npm:aurelia-task-queue@^1.0.0"
   },
-  "npm:aurelia-kendoui-bridge@1.2.1": {
+  "npm:aurelia-kendoui-bridge@1.2.2": {
     "aurelia-binding": "npm:aurelia-binding@^1.0.4",
     "aurelia-dependency-injection": "npm:aurelia-dependency-injection@^1.0.0",
     "aurelia-logging": "npm:aurelia-logging@^1.0.0",
