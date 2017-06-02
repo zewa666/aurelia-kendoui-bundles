@@ -1,11 +1,11 @@
 {
   "name": "systemjs-plugin-css",
-  "version": "0.1.33",
+  "version": "0.1.35",
   "main": "css",
   "registry": "jspm",
   "scripts": {
     "test": "mocha --harmony test/test.js",
-    "build": "cd build-post-css && ./build.sh",
+    "build": "cd build-post-css && npm run build",
     "phantom-test": "phantomjs test/phantom.js"
   },
   "devDependencies": {

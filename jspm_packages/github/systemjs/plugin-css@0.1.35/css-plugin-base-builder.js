@@ -122,7 +122,7 @@ exports.bundle = function(loads, compileOpts, outputOpts) {
     }
   }), atUrl({
     url: function(fileName, decl, from, dirname, to, options, result) {
-      if (absUrl(fileName))
+      if (absUrl(fileName) || fileName.match(/^%23/))
         return fileName;
 
       // dirname may be renormalized to cwd
@@ -143,7 +143,7 @@ exports.bundle = function(loads, compileOpts, outputOpts) {
     }));
 
   return postcss(postCssPlugins)
-  .process(Object.keys(inputFiles).map(name => '@import "' + name + '";').join('\n'), {
+  .process(Object.keys(inputFiles).map(name => '@import "' + name.replace(/\\/g, '/') + '";').join('\n'), {
     from: path.join(baseURLPath, '__.css'),
     to: cwd + path.sep + '__.css',
     map: {
