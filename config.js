@@ -13,163 +13,383 @@ System.config({
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*"
   },
+  map: {
+    "aurelia-after-attached-plugin": "github:aurelia-ui-toolkits/aurelia-after-attached-plugin@0.1.3",
+    "aurelia-animator-css": "npm:aurelia-animator-css@1.0.2",
+    "aurelia-binding": "npm:aurelia-binding@1.2.2",
+    "aurelia-bootstrapper": "npm:aurelia-bootstrapper@1.0.1",
+    "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.3.2",
+    "aurelia-event-aggregator": "npm:aurelia-event-aggregator@1.0.1",
+    "aurelia-fetch-client": "npm:aurelia-fetch-client@1.1.3",
+    "aurelia-framework": "npm:aurelia-framework@1.1.4",
+    "aurelia-history": "npm:aurelia-history@1.0.0",
+    "aurelia-history-browser": "npm:aurelia-history-browser@1.0.0",
+    "aurelia-http-client": "npm:aurelia-http-client@1.1.1",
+    "aurelia-kendoui-bridge": "npm:aurelia-kendoui-bridge@1.6.5",
+    "aurelia-loader": "npm:aurelia-loader@1.0.0",
+    "aurelia-loader-default": "npm:aurelia-loader-default@1.0.2",
+    "aurelia-logging": "npm:aurelia-logging@1.3.1",
+    "aurelia-logging-console": "npm:aurelia-logging-console@1.0.0",
+    "aurelia-metadata": "npm:aurelia-metadata@1.0.3",
+    "aurelia-path": "npm:aurelia-path@1.1.1",
+    "aurelia-route-recognizer": "npm:aurelia-route-recognizer@1.1.0",
+    "aurelia-router": "npm:aurelia-router@1.3.0",
+    "aurelia-task-queue": "npm:aurelia-task-queue@1.2.0",
+    "aurelia-templating": "npm:aurelia-templating@1.4.2",
+    "aurelia-templating-binding": "npm:aurelia-templating-binding@1.3.0",
+    "aurelia-templating-resources": "npm:aurelia-templating-resources@1.4.0",
+    "aurelia-templating-router": "npm:aurelia-templating-router@1.1.0",
+    "babel": "npm:babel-core@5.8.38",
+    "babel-runtime": "npm:babel-runtime@5.8.38",
+    "core-js": "npm:core-js@0.9.18",
+    "css": "github:systemjs/plugin-css@0.1.36",
+    "json": "github:systemjs/plugin-json@0.1.2",
+    "text": "github:systemjs/plugin-text@0.0.7",
+    "github:aurelia-ui-toolkits/aurelia-after-attached-plugin@0.1.3": {
+      "aurelia-task-queue": "npm:aurelia-task-queue@1.2.0",
+      "aurelia-templating": "npm:aurelia-templating@1.4.2"
+    },
+    "github:jspm/nodelibs-assert@0.1.0": {
+      "assert": "npm:assert@1.4.1"
+    },
+    "github:jspm/nodelibs-buffer@0.1.1": {
+      "buffer": "npm:buffer@5.0.7"
+    },
+    "github:jspm/nodelibs-process@0.1.2": {
+      "process": "npm:process@0.11.10"
+    },
+    "github:jspm/nodelibs-util@0.1.0": {
+      "util": "npm:util@0.10.3"
+    },
+    "github:jspm/nodelibs-vm@0.1.0": {
+      "vm-browserify": "npm:vm-browserify@0.0.4"
+    },
+    "npm:assert@1.4.1": {
+      "assert": "github:jspm/nodelibs-assert@0.1.0",
+      "buffer": "github:jspm/nodelibs-buffer@0.1.1",
+      "process": "github:jspm/nodelibs-process@0.1.2",
+      "util": "npm:util@0.10.3"
+    },
+    "npm:aurelia-animator-css@1.0.2": {
+      "aurelia-metadata": "npm:aurelia-metadata@1.0.3",
+      "aurelia-pal": "npm:aurelia-pal@1.4.0",
+      "aurelia-templating": "npm:aurelia-templating@1.4.2"
+    },
+    "npm:aurelia-binding@1.2.2": {
+      "aurelia-logging": "npm:aurelia-logging@1.3.1",
+      "aurelia-metadata": "npm:aurelia-metadata@1.0.3",
+      "aurelia-pal": "npm:aurelia-pal@1.4.0",
+      "aurelia-task-queue": "npm:aurelia-task-queue@1.2.0"
+    },
+    "npm:aurelia-bootstrapper@1.0.1": {
+      "aurelia-event-aggregator": "npm:aurelia-event-aggregator@1.0.1",
+      "aurelia-framework": "npm:aurelia-framework@1.1.4",
+      "aurelia-history": "npm:aurelia-history@1.0.0",
+      "aurelia-history-browser": "npm:aurelia-history-browser@1.0.0",
+      "aurelia-loader-default": "npm:aurelia-loader-default@1.0.2",
+      "aurelia-logging-console": "npm:aurelia-logging-console@1.0.0",
+      "aurelia-pal": "npm:aurelia-pal@1.4.0",
+      "aurelia-pal-browser": "npm:aurelia-pal-browser@1.3.0",
+      "aurelia-polyfills": "npm:aurelia-polyfills@1.2.2",
+      "aurelia-router": "npm:aurelia-router@1.3.0",
+      "aurelia-templating": "npm:aurelia-templating@1.4.2",
+      "aurelia-templating-binding": "npm:aurelia-templating-binding@1.3.0",
+      "aurelia-templating-resources": "npm:aurelia-templating-resources@1.4.0",
+      "aurelia-templating-router": "npm:aurelia-templating-router@1.1.0"
+    },
+    "npm:aurelia-dependency-injection@1.3.2": {
+      "aurelia-metadata": "npm:aurelia-metadata@1.0.3",
+      "aurelia-pal": "npm:aurelia-pal@1.4.0"
+    },
+    "npm:aurelia-event-aggregator@1.0.1": {
+      "aurelia-logging": "npm:aurelia-logging@1.3.1"
+    },
+    "npm:aurelia-framework@1.1.4": {
+      "aurelia-binding": "npm:aurelia-binding@1.2.2",
+      "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.3.2",
+      "aurelia-loader": "npm:aurelia-loader@1.0.0",
+      "aurelia-logging": "npm:aurelia-logging@1.3.1",
+      "aurelia-metadata": "npm:aurelia-metadata@1.0.3",
+      "aurelia-pal": "npm:aurelia-pal@1.4.0",
+      "aurelia-path": "npm:aurelia-path@1.1.1",
+      "aurelia-task-queue": "npm:aurelia-task-queue@1.2.0",
+      "aurelia-templating": "npm:aurelia-templating@1.4.2"
+    },
+    "npm:aurelia-history-browser@1.0.0": {
+      "aurelia-history": "npm:aurelia-history@1.0.0",
+      "aurelia-pal": "npm:aurelia-pal@1.4.0"
+    },
+    "npm:aurelia-http-client@1.1.1": {
+      "aurelia-pal": "npm:aurelia-pal@1.4.0",
+      "aurelia-path": "npm:aurelia-path@1.1.1"
+    },
+    "npm:aurelia-kendoui-bridge@1.6.5": {
+      "aurelia-binding": "npm:aurelia-binding@1.2.2",
+      "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.3.2",
+      "aurelia-logging": "npm:aurelia-logging@1.3.1",
+      "aurelia-metadata": "npm:aurelia-metadata@1.0.3",
+      "aurelia-pal": "npm:aurelia-pal@1.4.0",
+      "aurelia-router": "npm:aurelia-router@1.3.0",
+      "aurelia-task-queue": "npm:aurelia-task-queue@1.2.0",
+      "aurelia-templating": "npm:aurelia-templating@1.4.2",
+      "aurelia-templating-resources": "npm:aurelia-templating-resources@1.4.0"
+    },
+    "npm:aurelia-loader-default@1.0.2": {
+      "aurelia-loader": "npm:aurelia-loader@1.0.0",
+      "aurelia-metadata": "npm:aurelia-metadata@1.0.3",
+      "aurelia-pal": "npm:aurelia-pal@1.4.0"
+    },
+    "npm:aurelia-loader@1.0.0": {
+      "aurelia-metadata": "npm:aurelia-metadata@1.0.3",
+      "aurelia-path": "npm:aurelia-path@1.1.1"
+    },
+    "npm:aurelia-logging-console@1.0.0": {
+      "aurelia-logging": "npm:aurelia-logging@1.3.1"
+    },
+    "npm:aurelia-metadata@1.0.3": {
+      "aurelia-pal": "npm:aurelia-pal@1.4.0"
+    },
+    "npm:aurelia-pal-browser@1.3.0": {
+      "aurelia-pal": "npm:aurelia-pal@1.4.0"
+    },
+    "npm:aurelia-polyfills@1.2.2": {
+      "aurelia-pal": "npm:aurelia-pal@1.4.0"
+    },
+    "npm:aurelia-route-recognizer@1.1.0": {
+      "aurelia-path": "npm:aurelia-path@1.1.1"
+    },
+    "npm:aurelia-router@1.3.0": {
+      "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.3.2",
+      "aurelia-event-aggregator": "npm:aurelia-event-aggregator@1.0.1",
+      "aurelia-history": "npm:aurelia-history@1.0.0",
+      "aurelia-logging": "npm:aurelia-logging@1.3.1",
+      "aurelia-path": "npm:aurelia-path@1.1.1",
+      "aurelia-route-recognizer": "npm:aurelia-route-recognizer@1.1.0"
+    },
+    "npm:aurelia-task-queue@1.2.0": {
+      "aurelia-pal": "npm:aurelia-pal@1.4.0"
+    },
+    "npm:aurelia-templating-binding@1.3.0": {
+      "aurelia-binding": "npm:aurelia-binding@1.2.2",
+      "aurelia-logging": "npm:aurelia-logging@1.3.1",
+      "aurelia-templating": "npm:aurelia-templating@1.4.2"
+    },
+    "npm:aurelia-templating-resources@1.4.0": {
+      "aurelia-binding": "npm:aurelia-binding@1.2.2",
+      "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.3.2",
+      "aurelia-loader": "npm:aurelia-loader@1.0.0",
+      "aurelia-logging": "npm:aurelia-logging@1.3.1",
+      "aurelia-metadata": "npm:aurelia-metadata@1.0.3",
+      "aurelia-pal": "npm:aurelia-pal@1.4.0",
+      "aurelia-path": "npm:aurelia-path@1.1.1",
+      "aurelia-task-queue": "npm:aurelia-task-queue@1.2.0",
+      "aurelia-templating": "npm:aurelia-templating@1.4.2"
+    },
+    "npm:aurelia-templating-router@1.1.0": {
+      "aurelia-binding": "npm:aurelia-binding@1.2.2",
+      "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.3.2",
+      "aurelia-logging": "npm:aurelia-logging@1.3.1",
+      "aurelia-metadata": "npm:aurelia-metadata@1.0.3",
+      "aurelia-pal": "npm:aurelia-pal@1.4.0",
+      "aurelia-path": "npm:aurelia-path@1.1.1",
+      "aurelia-router": "npm:aurelia-router@1.3.0",
+      "aurelia-templating": "npm:aurelia-templating@1.4.2"
+    },
+    "npm:aurelia-templating@1.4.2": {
+      "aurelia-binding": "npm:aurelia-binding@1.2.2",
+      "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.3.2",
+      "aurelia-loader": "npm:aurelia-loader@1.0.0",
+      "aurelia-logging": "npm:aurelia-logging@1.3.1",
+      "aurelia-metadata": "npm:aurelia-metadata@1.0.3",
+      "aurelia-pal": "npm:aurelia-pal@1.4.0",
+      "aurelia-path": "npm:aurelia-path@1.1.1",
+      "aurelia-task-queue": "npm:aurelia-task-queue@1.2.0"
+    },
+    "npm:babel-runtime@5.8.38": {
+      "process": "github:jspm/nodelibs-process@0.1.2"
+    },
+    "npm:buffer@5.0.7": {
+      "base64-js": "npm:base64-js@1.2.1",
+      "ieee754": "npm:ieee754@1.1.8"
+    },
+    "npm:core-js@0.9.18": {
+      "fs": "github:jspm/nodelibs-fs@0.1.2",
+      "process": "github:jspm/nodelibs-process@0.1.2",
+      "systemjs-json": "github:systemjs/plugin-json@0.1.2"
+    },
+    "npm:inherits@2.0.1": {
+      "util": "github:jspm/nodelibs-util@0.1.0"
+    },
+    "npm:process@0.11.10": {
+      "assert": "github:jspm/nodelibs-assert@0.1.0",
+      "fs": "github:jspm/nodelibs-fs@0.1.2",
+      "vm": "github:jspm/nodelibs-vm@0.1.0"
+    },
+    "npm:util@0.10.3": {
+      "inherits": "npm:inherits@2.0.1",
+      "process": "github:jspm/nodelibs-process@0.1.2"
+    },
+    "npm:vm-browserify@0.0.4": {
+      "indexof": "npm:indexof@0.0.1"
+    }
+  },
   bundles: {
     "bundles/bundle.js": [
       "github:aurelia-ui-toolkits/aurelia-after-attached-plugin@0.1.3.js",
       "github:aurelia-ui-toolkits/aurelia-after-attached-plugin@0.1.3/aurelia-after-attached-plugin.js",
       "github:aurelia-ui-toolkits/aurelia-after-attached-plugin@0.1.3/index.js",
-      "github:systemjs/plugin-css@0.1.35.js",
-      "github:systemjs/plugin-css@0.1.35/css.js",
+      "github:systemjs/plugin-css@0.1.36.js",
+      "github:systemjs/plugin-css@0.1.36/css.js",
       "github:systemjs/plugin-json@0.1.2.js",
       "github:systemjs/plugin-json@0.1.2/json.js",
       "github:systemjs/plugin-text@0.0.7.js",
       "github:systemjs/plugin-text@0.0.7/text.js",
       "npm:aurelia-animator-css@1.0.2.js",
       "npm:aurelia-animator-css@1.0.2/aurelia-animator-css.js",
-      "npm:aurelia-binding@1.2.1.js",
-      "npm:aurelia-binding@1.2.1/aurelia-binding.js",
+      "npm:aurelia-binding@1.2.2.js",
+      "npm:aurelia-binding@1.2.2/aurelia-binding.js",
       "npm:aurelia-bootstrapper@1.0.1.js",
       "npm:aurelia-bootstrapper@1.0.1/aurelia-bootstrapper.js",
-      "npm:aurelia-dependency-injection@1.3.1.js",
-      "npm:aurelia-dependency-injection@1.3.1/aurelia-dependency-injection.js",
+      "npm:aurelia-dependency-injection@1.3.2.js",
+      "npm:aurelia-dependency-injection@1.3.2/aurelia-dependency-injection.js",
       "npm:aurelia-event-aggregator@1.0.1.js",
       "npm:aurelia-event-aggregator@1.0.1/aurelia-event-aggregator.js",
-      "npm:aurelia-fetch-client@1.1.2.js",
-      "npm:aurelia-fetch-client@1.1.2/aurelia-fetch-client.js",
-      "npm:aurelia-framework@1.1.2.js",
-      "npm:aurelia-framework@1.1.2/aurelia-framework.js",
+      "npm:aurelia-fetch-client@1.1.3.js",
+      "npm:aurelia-fetch-client@1.1.3/aurelia-fetch-client.js",
+      "npm:aurelia-framework@1.1.4.js",
+      "npm:aurelia-framework@1.1.4/aurelia-framework.js",
       "npm:aurelia-history-browser@1.0.0.js",
       "npm:aurelia-history-browser@1.0.0/aurelia-history-browser.js",
       "npm:aurelia-history@1.0.0.js",
       "npm:aurelia-history@1.0.0/aurelia-history.js",
       "npm:aurelia-http-client@1.1.1.js",
       "npm:aurelia-http-client@1.1.1/aurelia-http-client.js",
-      "npm:aurelia-kendoui-bridge@1.6.2.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/autocomplete/autocomplete.html!github:systemjs/plugin-text@0.0.7.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/autocomplete/autocomplete.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/barcode/barcode.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/button/button.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/buttongroup/buttongroup.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/calendar/calendar.html!github:systemjs/plugin-text@0.0.7.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/calendar/calendar.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/chart/chart.html!github:systemjs/plugin-text@0.0.7.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/chart/chart.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/chart/sparkline.html!github:systemjs/plugin-text@0.0.7.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/chart/sparkline.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/chart/stock.html!github:systemjs/plugin-text@0.0.7.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/chart/stock.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/chart/treemap.html!github:systemjs/plugin-text@0.0.7.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/chart/treemap.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/colorpalette/colorpalette.html!github:systemjs/plugin-text@0.0.7.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/colorpalette/colorpalette.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/colorpicker/colorpicker.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/combobox/combobox.html!github:systemjs/plugin-text@0.0.7.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/combobox/combobox.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/common/bindables.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/common/constants.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/common/control-properties.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/common/decorators.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/common/notify-binding-behavior.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/common/observer.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/common/options-builder.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/common/template-compiler.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/common/template-gatherer.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/common/template.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/common/util.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/common/widget-base.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/config-builder.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/contextmenu/contextmenu.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/dateinput/dateinput.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/datepicker/datepicker.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/datetimepicker/datetimepicker.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/diagram/diagram.html!github:systemjs/plugin-text@0.0.7.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/diagram/diagram.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/dialog/dialog.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/draggable/draggable.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/drop-target/drop-target-area.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/drop-target/drop-target.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/dropdownlist/dropdownlist.html!github:systemjs/plugin-text@0.0.7.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/dropdownlist/dropdownlist.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/editor/editor.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/filter-menu/filter-menu.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/flatcolorpicker/flatcolorpicker.html!github:systemjs/plugin-text@0.0.7.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/flatcolorpicker/flatcolorpicker.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/gantt/gantt-col.html!github:systemjs/plugin-text@0.0.7.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/gantt/gantt-col.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/gantt/gantt.html!github:systemjs/plugin-text@0.0.7.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/gantt/gantt.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/gauges/linear-gauge.html!github:systemjs/plugin-text@0.0.7.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/gauges/linear-gauge.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/gauges/radial-gauge.html!github:systemjs/plugin-text@0.0.7.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/gauges/radial-gauge.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/grid/col.html!github:systemjs/plugin-text@0.0.7.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/grid/col.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/grid/grid-command.html!github:systemjs/plugin-text@0.0.7.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/grid/grid-command.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/grid/grid-toolbar.html!github:systemjs/plugin-text@0.0.7.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/grid/grid-toolbar.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/grid/grid.html!github:systemjs/plugin-text@0.0.7.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/grid/grid.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/index.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/listbox/listbox.html!github:systemjs/plugin-text@0.0.7.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/listbox/listbox.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/listview/listview.html!github:systemjs/plugin-text@0.0.7.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/listview/listview.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/map/map.html!github:systemjs/plugin-text@0.0.7.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/map/map.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/maskedtextbox/maskedtextbox.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/mediaplayer/mediaplayer.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/menu/menu.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/multiselect/multiselect.html!github:systemjs/plugin-text@0.0.7.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/multiselect/multiselect.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/notification/notification-template.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/notification/notification.html!github:systemjs/plugin-text@0.0.7.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/notification/notification.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/numerictextbox/numerictextbox.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/panelbar/panelbar.html!github:systemjs/plugin-text@0.0.7.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/panelbar/panelbar.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/pdf/pdf.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/pivotgrid/pivotconfigurator.html!github:systemjs/plugin-text@0.0.7.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/pivotgrid/pivotconfigurator.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/pivotgrid/pivotgrid.html!github:systemjs/plugin-text@0.0.7.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/pivotgrid/pivotgrid.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/popup/popup.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/progressbar/progressbar.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/qrcode/qrcode.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/rangeslider/rangeslider.html!github:systemjs/plugin-text@0.0.7.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/rangeslider/rangeslider.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/responsivepanel/responsivepanel.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/scheduler/scheduler.html!github:systemjs/plugin-text@0.0.7.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/scheduler/scheduler.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/scrollview/scrollview.html!github:systemjs/plugin-text@0.0.7.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/scrollview/scrollview.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/slider/slider.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/sortable/sortable.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/splitter/splitter.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/spreadsheet/spreadsheet.html!github:systemjs/plugin-text@0.0.7.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/spreadsheet/spreadsheet.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/switch/switch.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/tabstrip/tabstrip.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/timepicker/timepicker.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/toolbar/toolbar-item-button.html!github:systemjs/plugin-text@0.0.7.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/toolbar/toolbar-item-button.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/toolbar/toolbar-item.html!github:systemjs/plugin-text@0.0.7.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/toolbar/toolbar-item.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/toolbar/toolbar.html!github:systemjs/plugin-text@0.0.7.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/toolbar/toolbar.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/tooltip/tooltip.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/treelist/tree-col.html!github:systemjs/plugin-text@0.0.7.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/treelist/tree-col.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/treelist/treelist.html!github:systemjs/plugin-text@0.0.7.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/treelist/treelist.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/treeview/treeview.html!github:systemjs/plugin-text@0.0.7.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/treeview/treeview.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/upload/upload.html!github:systemjs/plugin-text@0.0.7.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/upload/upload.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/validator/validator.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/valueconverters/valueconverters.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/version.js",
-      "npm:aurelia-kendoui-bridge@1.6.2/window/window.js",
+      "npm:aurelia-kendoui-bridge@1.6.5.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/autocomplete/autocomplete.html!github:systemjs/plugin-text@0.0.7.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/autocomplete/autocomplete.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/barcode/barcode.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/button/button.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/buttongroup/buttongroup.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/calendar/calendar.html!github:systemjs/plugin-text@0.0.7.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/calendar/calendar.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/chart/chart.html!github:systemjs/plugin-text@0.0.7.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/chart/chart.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/chart/sparkline.html!github:systemjs/plugin-text@0.0.7.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/chart/sparkline.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/chart/stock.html!github:systemjs/plugin-text@0.0.7.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/chart/stock.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/chart/treemap.html!github:systemjs/plugin-text@0.0.7.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/chart/treemap.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/colorpalette/colorpalette.html!github:systemjs/plugin-text@0.0.7.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/colorpalette/colorpalette.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/colorpicker/colorpicker.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/combobox/combobox.html!github:systemjs/plugin-text@0.0.7.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/combobox/combobox.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/common/bindables.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/common/constants.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/common/control-properties.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/common/decorators.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/common/notify-binding-behavior.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/common/observer.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/common/options-builder.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/common/template-compiler.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/common/template-gatherer.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/common/template.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/common/util.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/common/widget-base.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/config-builder.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/contextmenu/contextmenu.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/dateinput/dateinput.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/datepicker/datepicker.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/datetimepicker/datetimepicker.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/diagram/diagram.html!github:systemjs/plugin-text@0.0.7.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/diagram/diagram.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/dialog/dialog.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/draggable/draggable.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/drop-target/drop-target-area.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/drop-target/drop-target.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/dropdownlist/dropdownlist.html!github:systemjs/plugin-text@0.0.7.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/dropdownlist/dropdownlist.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/editor/editor.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/filter-menu/filter-menu.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/flatcolorpicker/flatcolorpicker.html!github:systemjs/plugin-text@0.0.7.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/flatcolorpicker/flatcolorpicker.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/gantt/gantt-col.html!github:systemjs/plugin-text@0.0.7.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/gantt/gantt-col.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/gantt/gantt.html!github:systemjs/plugin-text@0.0.7.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/gantt/gantt.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/gauges/linear-gauge.html!github:systemjs/plugin-text@0.0.7.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/gauges/linear-gauge.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/gauges/radial-gauge.html!github:systemjs/plugin-text@0.0.7.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/gauges/radial-gauge.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/grid/col.html!github:systemjs/plugin-text@0.0.7.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/grid/col.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/grid/grid-command.html!github:systemjs/plugin-text@0.0.7.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/grid/grid-command.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/grid/grid-toolbar.html!github:systemjs/plugin-text@0.0.7.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/grid/grid-toolbar.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/grid/grid.html!github:systemjs/plugin-text@0.0.7.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/grid/grid.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/index.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/listbox/listbox.html!github:systemjs/plugin-text@0.0.7.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/listbox/listbox.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/listview/listview.html!github:systemjs/plugin-text@0.0.7.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/listview/listview.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/map/map.html!github:systemjs/plugin-text@0.0.7.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/map/map.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/maskedtextbox/maskedtextbox.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/mediaplayer/mediaplayer.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/menu/menu.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/multiselect/multiselect.html!github:systemjs/plugin-text@0.0.7.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/multiselect/multiselect.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/notification/notification-template.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/notification/notification.html!github:systemjs/plugin-text@0.0.7.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/notification/notification.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/numerictextbox/numerictextbox.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/panelbar/panelbar.html!github:systemjs/plugin-text@0.0.7.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/panelbar/panelbar.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/pdf/pdf.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/pivotgrid/pivotconfigurator.html!github:systemjs/plugin-text@0.0.7.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/pivotgrid/pivotconfigurator.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/pivotgrid/pivotgrid.html!github:systemjs/plugin-text@0.0.7.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/pivotgrid/pivotgrid.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/popup/popup.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/progressbar/progressbar.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/qrcode/qrcode.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/rangeslider/rangeslider.html!github:systemjs/plugin-text@0.0.7.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/rangeslider/rangeslider.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/responsivepanel/responsivepanel.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/scheduler/scheduler.html!github:systemjs/plugin-text@0.0.7.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/scheduler/scheduler.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/scrollview/scrollview.html!github:systemjs/plugin-text@0.0.7.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/scrollview/scrollview.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/slider/slider.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/sortable/sortable.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/splitter/splitter.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/spreadsheet/spreadsheet.html!github:systemjs/plugin-text@0.0.7.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/spreadsheet/spreadsheet.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/switch/switch.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/tabstrip/tabstrip.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/timepicker/timepicker.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/toolbar/toolbar-item-button.html!github:systemjs/plugin-text@0.0.7.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/toolbar/toolbar-item-button.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/toolbar/toolbar-item.html!github:systemjs/plugin-text@0.0.7.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/toolbar/toolbar-item.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/toolbar/toolbar.html!github:systemjs/plugin-text@0.0.7.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/toolbar/toolbar.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/tooltip/tooltip.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/treelist/tree-col.html!github:systemjs/plugin-text@0.0.7.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/treelist/tree-col.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/treelist/treelist.html!github:systemjs/plugin-text@0.0.7.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/treelist/treelist.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/treeview/treeview.html!github:systemjs/plugin-text@0.0.7.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/treeview/treeview.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/upload/upload.html!github:systemjs/plugin-text@0.0.7.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/upload/upload.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/validator/validator.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/valueconverters/valueconverters.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/version.js",
+      "npm:aurelia-kendoui-bridge@1.6.5/window/window.js",
       "npm:aurelia-loader-default@1.0.2.js",
       "npm:aurelia-loader-default@1.0.2/aurelia-loader-default.js",
       "npm:aurelia-loader@1.0.0.js",
@@ -180,14 +400,14 @@ System.config({
       "npm:aurelia-logging@1.3.1/aurelia-logging.js",
       "npm:aurelia-metadata@1.0.3.js",
       "npm:aurelia-metadata@1.0.3/aurelia-metadata.js",
-      "npm:aurelia-pal-browser@1.2.1.js",
-      "npm:aurelia-pal-browser@1.2.1/aurelia-pal-browser.js",
-      "npm:aurelia-pal@1.3.0.js",
-      "npm:aurelia-pal@1.3.0/aurelia-pal.js",
+      "npm:aurelia-pal-browser@1.3.0.js",
+      "npm:aurelia-pal-browser@1.3.0/aurelia-pal-browser.js",
+      "npm:aurelia-pal@1.4.0.js",
+      "npm:aurelia-pal@1.4.0/aurelia-pal.js",
       "npm:aurelia-path@1.1.1.js",
       "npm:aurelia-path@1.1.1/aurelia-path.js",
-      "npm:aurelia-polyfills@1.2.1.js",
-      "npm:aurelia-polyfills@1.2.1/aurelia-polyfills.js",
+      "npm:aurelia-polyfills@1.2.2.js",
+      "npm:aurelia-polyfills@1.2.2/aurelia-polyfills.js",
       "npm:aurelia-route-recognizer@1.1.0.js",
       "npm:aurelia-route-recognizer@1.1.0/aurelia-route-recognizer.js",
       "npm:aurelia-router@1.3.0.js",
@@ -237,226 +457,5 @@ System.config({
       "npm:aurelia-templating@1.4.2.js",
       "npm:aurelia-templating@1.4.2/aurelia-templating.js"
     ]
-  },
-
-  map: {
-    "aurelia-after-attached-plugin": "github:aurelia-ui-toolkits/aurelia-after-attached-plugin@0.1.3",
-    "aurelia-animator-css": "npm:aurelia-animator-css@1.0.2",
-    "aurelia-binding": "npm:aurelia-binding@1.2.1",
-    "aurelia-bootstrapper": "npm:aurelia-bootstrapper@1.0.1",
-    "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.3.1",
-    "aurelia-event-aggregator": "npm:aurelia-event-aggregator@1.0.1",
-    "aurelia-fetch-client": "npm:aurelia-fetch-client@1.1.2",
-    "aurelia-framework": "npm:aurelia-framework@1.1.4",
-    "aurelia-history": "npm:aurelia-history@1.0.0",
-    "aurelia-history-browser": "npm:aurelia-history-browser@1.0.0",
-    "aurelia-http-client": "npm:aurelia-http-client@1.1.1",
-    "aurelia-kendoui-bridge": "npm:aurelia-kendoui-bridge@1.6.4",
-    "aurelia-loader": "npm:aurelia-loader@1.0.0",
-    "aurelia-loader-default": "npm:aurelia-loader-default@1.0.2",
-    "aurelia-logging": "npm:aurelia-logging@1.3.1",
-    "aurelia-logging-console": "npm:aurelia-logging-console@1.0.0",
-    "aurelia-metadata": "npm:aurelia-metadata@1.0.3",
-    "aurelia-path": "npm:aurelia-path@1.1.1",
-    "aurelia-route-recognizer": "npm:aurelia-route-recognizer@1.1.0",
-    "aurelia-router": "npm:aurelia-router@1.3.0",
-    "aurelia-task-queue": "npm:aurelia-task-queue@1.2.0",
-    "aurelia-templating": "npm:aurelia-templating@1.4.2",
-    "aurelia-templating-binding": "npm:aurelia-templating-binding@1.3.0",
-    "aurelia-templating-resources": "npm:aurelia-templating-resources@1.4.0",
-    "aurelia-templating-router": "npm:aurelia-templating-router@1.1.0",
-    "babel": "npm:babel-core@5.8.38",
-    "babel-runtime": "npm:babel-runtime@5.8.38",
-    "core-js": "npm:core-js@0.9.18",
-    "css": "github:systemjs/plugin-css@0.1.35",
-    "json": "github:systemjs/plugin-json@0.1.2",
-    "text": "github:systemjs/plugin-text@0.0.7",
-    "github:aurelia-ui-toolkits/aurelia-after-attached-plugin@0.1.3": {
-      "aurelia-task-queue": "npm:aurelia-task-queue@1.2.0",
-      "aurelia-templating": "npm:aurelia-templating@1.4.2"
-    },
-    "github:jspm/nodelibs-assert@0.1.0": {
-      "assert": "npm:assert@1.4.1"
-    },
-    "github:jspm/nodelibs-buffer@0.1.1": {
-      "buffer": "npm:buffer@5.0.7"
-    },
-    "github:jspm/nodelibs-process@0.1.2": {
-      "process": "npm:process@0.11.10"
-    },
-    "github:jspm/nodelibs-util@0.1.0": {
-      "util": "npm:util@0.10.3"
-    },
-    "github:jspm/nodelibs-vm@0.1.0": {
-      "vm-browserify": "npm:vm-browserify@0.0.4"
-    },
-    "npm:assert@1.4.1": {
-      "assert": "github:jspm/nodelibs-assert@0.1.0",
-      "buffer": "github:jspm/nodelibs-buffer@0.1.1",
-      "process": "github:jspm/nodelibs-process@0.1.2",
-      "util": "npm:util@0.10.3"
-    },
-    "npm:aurelia-animator-css@1.0.2": {
-      "aurelia-metadata": "npm:aurelia-metadata@1.0.3",
-      "aurelia-pal": "npm:aurelia-pal@1.3.0",
-      "aurelia-templating": "npm:aurelia-templating@1.4.2"
-    },
-    "npm:aurelia-binding@1.2.1": {
-      "aurelia-logging": "npm:aurelia-logging@1.3.1",
-      "aurelia-metadata": "npm:aurelia-metadata@1.0.3",
-      "aurelia-pal": "npm:aurelia-pal@1.3.0",
-      "aurelia-task-queue": "npm:aurelia-task-queue@1.2.0"
-    },
-    "npm:aurelia-bootstrapper@1.0.1": {
-      "aurelia-event-aggregator": "npm:aurelia-event-aggregator@1.0.1",
-      "aurelia-framework": "npm:aurelia-framework@1.1.4",
-      "aurelia-history": "npm:aurelia-history@1.0.0",
-      "aurelia-history-browser": "npm:aurelia-history-browser@1.0.0",
-      "aurelia-loader-default": "npm:aurelia-loader-default@1.0.2",
-      "aurelia-logging-console": "npm:aurelia-logging-console@1.0.0",
-      "aurelia-pal": "npm:aurelia-pal@1.3.0",
-      "aurelia-pal-browser": "npm:aurelia-pal-browser@1.2.1",
-      "aurelia-polyfills": "npm:aurelia-polyfills@1.2.2",
-      "aurelia-router": "npm:aurelia-router@1.3.0",
-      "aurelia-templating": "npm:aurelia-templating@1.4.2",
-      "aurelia-templating-binding": "npm:aurelia-templating-binding@1.3.0",
-      "aurelia-templating-resources": "npm:aurelia-templating-resources@1.4.0",
-      "aurelia-templating-router": "npm:aurelia-templating-router@1.1.0"
-    },
-    "npm:aurelia-dependency-injection@1.3.1": {
-      "aurelia-metadata": "npm:aurelia-metadata@1.0.3",
-      "aurelia-pal": "npm:aurelia-pal@1.3.0"
-    },
-    "npm:aurelia-event-aggregator@1.0.1": {
-      "aurelia-logging": "npm:aurelia-logging@1.3.1"
-    },
-    "npm:aurelia-framework@1.1.4": {
-      "aurelia-binding": "npm:aurelia-binding@1.2.1",
-      "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.3.1",
-      "aurelia-loader": "npm:aurelia-loader@1.0.0",
-      "aurelia-logging": "npm:aurelia-logging@1.3.1",
-      "aurelia-metadata": "npm:aurelia-metadata@1.0.3",
-      "aurelia-pal": "npm:aurelia-pal@1.3.0",
-      "aurelia-path": "npm:aurelia-path@1.1.1",
-      "aurelia-task-queue": "npm:aurelia-task-queue@1.2.0",
-      "aurelia-templating": "npm:aurelia-templating@1.4.2"
-    },
-    "npm:aurelia-history-browser@1.0.0": {
-      "aurelia-history": "npm:aurelia-history@1.0.0",
-      "aurelia-pal": "npm:aurelia-pal@1.3.0"
-    },
-    "npm:aurelia-http-client@1.1.1": {
-      "aurelia-pal": "npm:aurelia-pal@1.3.0",
-      "aurelia-path": "npm:aurelia-path@1.1.1"
-    },
-    "npm:aurelia-kendoui-bridge@1.6.4": {
-      "aurelia-binding": "npm:aurelia-binding@1.2.1",
-      "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.3.1",
-      "aurelia-logging": "npm:aurelia-logging@1.3.1",
-      "aurelia-metadata": "npm:aurelia-metadata@1.0.3",
-      "aurelia-pal": "npm:aurelia-pal@1.3.0",
-      "aurelia-router": "npm:aurelia-router@1.3.0",
-      "aurelia-task-queue": "npm:aurelia-task-queue@1.2.0",
-      "aurelia-templating": "npm:aurelia-templating@1.4.2",
-      "aurelia-templating-resources": "npm:aurelia-templating-resources@1.4.0"
-    },
-    "npm:aurelia-loader-default@1.0.2": {
-      "aurelia-loader": "npm:aurelia-loader@1.0.0",
-      "aurelia-metadata": "npm:aurelia-metadata@1.0.3",
-      "aurelia-pal": "npm:aurelia-pal@1.3.0"
-    },
-    "npm:aurelia-loader@1.0.0": {
-      "aurelia-metadata": "npm:aurelia-metadata@1.0.3",
-      "aurelia-path": "npm:aurelia-path@1.1.1"
-    },
-    "npm:aurelia-logging-console@1.0.0": {
-      "aurelia-logging": "npm:aurelia-logging@1.3.1"
-    },
-    "npm:aurelia-metadata@1.0.3": {
-      "aurelia-pal": "npm:aurelia-pal@1.3.0"
-    },
-    "npm:aurelia-pal-browser@1.2.1": {
-      "aurelia-pal": "npm:aurelia-pal@1.3.0"
-    },
-    "npm:aurelia-polyfills@1.2.2": {
-      "aurelia-pal": "npm:aurelia-pal@1.3.0"
-    },
-    "npm:aurelia-route-recognizer@1.1.0": {
-      "aurelia-path": "npm:aurelia-path@1.1.1"
-    },
-    "npm:aurelia-router@1.3.0": {
-      "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.3.1",
-      "aurelia-event-aggregator": "npm:aurelia-event-aggregator@1.0.1",
-      "aurelia-history": "npm:aurelia-history@1.0.0",
-      "aurelia-logging": "npm:aurelia-logging@1.3.1",
-      "aurelia-path": "npm:aurelia-path@1.1.1",
-      "aurelia-route-recognizer": "npm:aurelia-route-recognizer@1.1.0"
-    },
-    "npm:aurelia-task-queue@1.2.0": {
-      "aurelia-pal": "npm:aurelia-pal@1.3.0"
-    },
-    "npm:aurelia-templating-binding@1.3.0": {
-      "aurelia-binding": "npm:aurelia-binding@1.2.1",
-      "aurelia-logging": "npm:aurelia-logging@1.3.1",
-      "aurelia-templating": "npm:aurelia-templating@1.4.2"
-    },
-    "npm:aurelia-templating-resources@1.4.0": {
-      "aurelia-binding": "npm:aurelia-binding@1.2.1",
-      "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.3.1",
-      "aurelia-loader": "npm:aurelia-loader@1.0.0",
-      "aurelia-logging": "npm:aurelia-logging@1.3.1",
-      "aurelia-metadata": "npm:aurelia-metadata@1.0.3",
-      "aurelia-pal": "npm:aurelia-pal@1.3.0",
-      "aurelia-path": "npm:aurelia-path@1.1.1",
-      "aurelia-task-queue": "npm:aurelia-task-queue@1.2.0",
-      "aurelia-templating": "npm:aurelia-templating@1.4.2"
-    },
-    "npm:aurelia-templating-router@1.1.0": {
-      "aurelia-binding": "npm:aurelia-binding@1.2.1",
-      "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.3.1",
-      "aurelia-logging": "npm:aurelia-logging@1.3.1",
-      "aurelia-metadata": "npm:aurelia-metadata@1.0.3",
-      "aurelia-pal": "npm:aurelia-pal@1.3.0",
-      "aurelia-path": "npm:aurelia-path@1.1.1",
-      "aurelia-router": "npm:aurelia-router@1.3.0",
-      "aurelia-templating": "npm:aurelia-templating@1.4.2"
-    },
-    "npm:aurelia-templating@1.4.2": {
-      "aurelia-binding": "npm:aurelia-binding@1.2.1",
-      "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.3.1",
-      "aurelia-loader": "npm:aurelia-loader@1.0.0",
-      "aurelia-logging": "npm:aurelia-logging@1.3.1",
-      "aurelia-metadata": "npm:aurelia-metadata@1.0.3",
-      "aurelia-pal": "npm:aurelia-pal@1.3.0",
-      "aurelia-path": "npm:aurelia-path@1.1.1",
-      "aurelia-task-queue": "npm:aurelia-task-queue@1.2.0"
-    },
-    "npm:babel-runtime@5.8.38": {
-      "process": "github:jspm/nodelibs-process@0.1.2"
-    },
-    "npm:buffer@5.0.7": {
-      "base64-js": "npm:base64-js@1.2.1",
-      "ieee754": "npm:ieee754@1.1.8"
-    },
-    "npm:core-js@0.9.18": {
-      "fs": "github:jspm/nodelibs-fs@0.1.2",
-      "process": "github:jspm/nodelibs-process@0.1.2",
-      "systemjs-json": "github:systemjs/plugin-json@0.1.2"
-    },
-    "npm:inherits@2.0.1": {
-      "util": "github:jspm/nodelibs-util@0.1.0"
-    },
-    "npm:process@0.11.10": {
-      "assert": "github:jspm/nodelibs-assert@0.1.0",
-      "fs": "github:jspm/nodelibs-fs@0.1.2",
-      "vm": "github:jspm/nodelibs-vm@0.1.0"
-    },
-    "npm:util@0.10.3": {
-      "inherits": "npm:inherits@2.0.1",
-      "process": "github:jspm/nodelibs-process@0.1.2"
-    },
-    "npm:vm-browserify@0.0.4": {
-      "indexof": "npm:indexof@0.0.1"
-    }
   }
 });
