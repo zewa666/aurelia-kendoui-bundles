@@ -10,11 +10,11 @@ System.config({
     "optional": []
   },
   paths: {
-    "github:*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.4/jspm_packages/github/*",
-    "npm:*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.4/jspm_packages/npm/*",
-    "kendo.*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.4/jspm_packages/kendo/bower-kendo-ui@2016.1.322/js/kendo.*.js",
-    "kendo:*": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.4/jspm_packages/kendo/*",
-    "bundles/bundle.js": "https://cdn.rawgit.com/aurelia-ui-toolkits/aurelia-kendoui-bundles/0.3.4/bundles/bundle.js"
+    "github:*": "https://cdn.rawgit.com/zewa666/aurelia-kendoui-bundles/0.3.4/jspm_packages/github/*",
+    "npm:*": "https://cdn.rawgit.com/zewa666/aurelia-kendoui-bundles/0.3.4/jspm_packages/npm/*",
+    "kendo.*": "https://cdn.rawgit.com/zewa666/aurelia-kendoui-bundles/0.3.4/jspm_packages/kendo/bower-kendo-ui@2016.1.322/js/kendo.*.js",
+    "kendo:*": "https://cdn.rawgit.com/zewa666/aurelia-kendoui-bundles/0.3.4/jspm_packages/kendo/*",
+    "bundles/bundle.js": "https://cdn.rawgit.com/zewa666/aurelia-kendoui-bundles/0.3.4/bundles/bundle.js"
   },
   map: {
     "aurelia-after-attached-plugin": "github:aurelia-ui-toolkits/aurelia-after-attached-plugin@0.1.3",
