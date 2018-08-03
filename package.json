@@ -29,6 +29,7 @@
       "aurelia-history": "npm:aurelia-history@^1.0.0-beta.1.2.0",
       "aurelia-history-browser": "npm:aurelia-history-browser@^1.0.0-beta.1.2.0",
       "aurelia-http-client": "npm:aurelia-http-client@^1.0.0-beta.1.2.0",
+      "aurelia-i18n": "npm:aurelia-i18n@^2.3.2",
       "aurelia-kendoui-bridge": "npm:aurelia-kendoui-bridge@^1.1.1",
       "aurelia-loader": "npm:aurelia-loader@^1.0.0-beta.1.2.0",
       "aurelia-loader-default": "npm:aurelia-loader-default@^1.0.0-beta.1.2.0",
@@ -44,6 +45,7 @@
       "aurelia-templating-binding": "npm:aurelia-templating-binding@^1.0.0-beta.1.2.1",
       "aurelia-templating-resources": "npm:aurelia-templating-resources@^1.0.0-beta.1.2.1",
       "aurelia-templating-router": "npm:aurelia-templating-router@^1.0.0-beta.1.2.0",
+      "aurelia-validation": "npm:aurelia-validation@^1.2.2",
       "css": "github:systemjs/plugin-css@^0.1.26",
       "json": "github:systemjs/plugin-json@^0.1.0",
       "text": "github:systemjs/plugin-text@^0.0.7"
