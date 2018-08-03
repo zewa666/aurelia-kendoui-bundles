@@ -1,0 +1,1 @@
+module.exports = require("npm:aurelia-store@0.26.0/aurelia-store");
